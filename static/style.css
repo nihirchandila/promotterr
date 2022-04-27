@@ -1,0 +1,271 @@
+body {
+    background-color: #b9e6de;
+    font-family: 'Montserrat', sans-serif 
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+h3 {
+    font-weight: 600;
+    font-size: 22px
+}
+h4 {
+    font-weight: 600;
+    font-size: 12px
+}
+.navbar {
+    padding: 15px 0
+}
+.nav-border {
+    border-bottom: 1px solid #f5fcfb
+}
+.navbar .menu ul {
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0
+}
+.navbar .menu ul li {
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.navbar-collapse {
+    justify-content: space-between;
+}
+.navbar .toggler-icon i {
+    font-size: 22px;
+}
+.navbar .navbar-toggler {
+    padding: 0
+}
+.logo {
+    width: 25%
+}
+.menu {
+    width: 50%;
+}
+.right-nav {
+    width: 25%;
+    text-align: right;
+}
+.right-nav button {
+    background-color: #2bc4aa!important;
+    border: none!important;
+    border-radius: 7px!important;
+    padding: 8px 7px;
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+}
+.right-nav button:hover {
+    color: #000;
+}
+.account-section {
+    background-color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+.account-section .sign-up-section {
+    width: 100%;
+}
+.account-section .sign-up-section div {
+    margin-bottom: 15px;
+}
+.account-section .sign-up-section {
+    width: 100%;
+}
+.account-section .sign-up-section input {
+    width: 80%;
+    background-color: #c0ede6;
+    border-radius: 0;
+    border: none;
+}
+.account-section .sign-up-section label {
+    margin: 0;
+    margin-right: 15px;
+    font-weight: 500;
+}
+.account-section .sign-up-section .submit {
+    background-color: #c0ede6;
+    border: none;
+    padding: 10px 60px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.account-section .sign-up-section h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.login-signup-section {
+    margin: 50px 0;
+}
+.account-section {
+    margin-right: 10px;
+}
+.login-section i {
+    display: inline-flex;
+    background-color: #c0ede6;
+    padding: 30px;
+    border-radius: 100%;
+    line-height: normal;
+    color: #fff;
+    font-size: 130px
+}
+.login-section .submit {
+    background-color: #c0ede6;
+    border: none;
+    padding: 10px 60px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.button {
+    background-color: #c0ede6;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-top: 0;
+}
+.button:hover {
+    background-color: #c0ede6;
+    color: #000;
+}
+
+/* section 2 styling starts */
+.upload-section {
+    margin-top: 50px;
+}
+.upload-section .upload-section-1 {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+.upload-section-1 .upload-process {
+    padding: 30px 0 0 0;
+    margin: auto
+}
+.upload-section .upload-section-1>p {
+    margin-bottom: 30px;
+}
+.upload-section .upload-file {
+    background-color: #eafcf9;
+    padding: 30px;
+    text-align: center
+}
+.upload-section .upload-file i {
+    font-size: 200px;
+    line-height: 0.1;
+}
+.upload-section-1 .upload-process img {
+    margin: 20px 0;
+}
+.success i {
+    color: #00d300;
+}
+.failed i {
+    color: #ca3131;
+}
+.upload-section-1 .upload-process>span {
+    display: block
+}
+.upload-section-2 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+.upload-section-2 .upload-file-1 {
+    text-align: center;
+    background-color: #f3fdfc;
+    padding: 10px;
+}
+.upload-section-2 .upload-file-1 i {
+    font-size: 80px;
+    line-height: 0.1;
+}
+.upload-section-2 .upload-file-1 button {
+    font-size: 10px;
+    padding: 10px
+}
+.button-type-2 {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin: auto;
+    display: block
+}
+.upload-section-2 .success, .upload-section-2 .failed {
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+.upload-section-2 .inner-section {
+    align-items: center;
+    margin-bottom: 20px
+}
+/* section 2 styling ends */
+@media (max-width: 1200px){
+    nav .logo {
+        width: 15%;
+    }
+    nav .menu {
+        width: 70%;
+    }
+    nav .right-nav {
+        width: 15%;
+    }
+}
+@media (max-width: 992px){
+    .display-block {
+        display: block!important;
+    }
+    .upload-section-1 {
+        margin-bottom: 30px
+    }
+    .account-section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .login-section {
+        width: 100%
+    }
+}
+@media (max-width: 991px){
+    nav .menu ul {
+        display: block!important;
+        margin: 20px 0!important;
+        padding: 0;
+    }
+    nav .menu ul li {
+        padding: 10px 0;
+    }
+    nav .right-nav {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px
+    }
+
+}
